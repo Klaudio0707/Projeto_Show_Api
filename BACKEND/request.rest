@@ -1,0 +1,9 @@
+POST  http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+"name": "Algum Serviço",
+"description": "Alguma descrição",
+"price": 1400,
+"image": "https://unsplash.com/pt-br/fotografias/uma-grande-roda-gigante-sentada-ao-lado-de-um-predio-alto-Bms3o_tRiZ8",
+}

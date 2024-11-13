@@ -2,8 +2,11 @@ POST  http://localhost:3000/api/services
 Content-Type: application/json
 
 {
-"name": "Algum Serviço",
+"name": "teste",
 "description": "Alguma descrição",
-"price": 1400,
-"image": "https://unsplash.com/pt-br/fotografias/uma-grande-roda-gigante-sentada-ao-lado-de-um-predio-alto-Bms3o_tRiZ8",
+"price": "1450",
+"image": "https://unsplash.com/pt-br/fotografias/uma-grande-roda-gigante-sentada-ao-lado-de-um-predio-alto-Bms3o_tRiZ8"
 }
+
+###
+GET http://localhost:3000/api/services

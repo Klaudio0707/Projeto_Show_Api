@@ -7,7 +7,7 @@ try {
 const service = {
 name: req.body.name,
 description: req.body.description,
-prince: req.body.prince,
+price: req.body.price,
 image: req.body.image,
 
 };
